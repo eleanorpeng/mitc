@@ -1,0 +1,49 @@
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.mitc-title {
+  color: black;
+  font-family: "Inter";
+  font-size: 25px;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 80px;
+  gap: 20px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff7e5;
+  /* padding: 20; */
+  /* gap: 50px; */
+}
+
+.btn {
+  color: black;
+  font-family: "Inter";
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+}
+
+.btn:hover {
+  color: #f2c459;
+}
+
+.links {
+  padding-right: 50px;
+  display: flex;
+  gap: 50px;
+}
