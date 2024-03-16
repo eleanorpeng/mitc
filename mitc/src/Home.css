@@ -1,16 +1,13 @@
 .main {
   display: flex;
   flex-direction: column;
-  /* background-color: #fff7e5; */
   background-color: white;
-  /* padding: 40px; */
   text-align: left;
 }
 p {
   font-family: "Inter";
   font-size: 18px;
   align-content: flex-start;
-  /* align-items: flex-start; */
 }
 
 h1 {
@@ -53,13 +50,9 @@ h2 {
 }
 
 .card-content {
-  /* display: flex; */
-  /* flex-direction: column; */
   min-width: 350px;
   justify-content: flex-start;
   align-items: flex-start;
-  /* flex: 1; */
-  /* align-content: flex-start; */
 }
 
 .process {
@@ -203,8 +196,6 @@ h2 {
 
 .background {
   background-color: #fff7e5;
-  /* background-color: black; */
-  /* margin-top: 10px; */
   transform: skewY(-3deg);
   transform-origin: top left;
   height: 200px;

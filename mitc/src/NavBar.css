@@ -26,19 +26,18 @@
   justify-content: space-between;
   width: 100%;
   background-color: #fff7e5;
-  /* padding: 20; */
-  /* gap: 50px; */
 }
 
-.btn {
+.link {
   color: black;
   font-family: "Inter";
   font-size: 16px;
   border: none;
   background-color: transparent;
+  text-decoration: none;
 }
 
-.btn:hover {
+.link:hover {
   color: #f2c459;
 }
 

@@ -1,7 +1,6 @@
 import "./Home.css";
 import Person from "./Person";
 import { useState } from "react";
-import Polygon from "./Polygon";
 
 export default function Home() {
   const [onTeacherView, setOnTeacherView] = useState(true);
