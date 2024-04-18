@@ -1,0 +1,38 @@
+.slide {
+  display: flex;
+  flex-direction: column;
+  /* padding: 0px 160px; */
+  justify-content: center;
+  align-items: center;
+  background-color: #fff7e5;
+  /* background-color: white; */
+}
+
+.slide-title {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 20px;
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  background-color: white;
+  padding: 0px 80px;
+  border-radius: 16px;
+}
+
+.slide-content-right img {
+  width: 500px;
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+.slide-content p {
+  font-size: 16px;
+}

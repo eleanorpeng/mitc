@@ -6,7 +6,7 @@
 }
 p {
   font-family: "Inter";
-  font-size: 18px;
+  font-size: 20px;
   align-content: flex-start;
 }
 
@@ -23,8 +23,9 @@ h2 {
 .top {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 100px;
   padding: 80px;
+  min-width: 400px;
   background-color: #fff7e5;
 }
 
@@ -44,13 +45,16 @@ h2 {
 .card {
   display: flex;
   background: white;
-  gap: 50px;
-  padding: 30px 60px;
+  gap: 70px;
+
+  padding: 30px 80px;
+  padding-bottom: 0;
   border-radius: 30px;
 }
 
 .card-content {
   min-width: 350px;
+  /* max-width: 450px; */
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -75,25 +79,49 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 300px;
+  width: 500px;
 }
 
 .process-img {
-  width: 280px;
-  height: 350px;
+  width: 400px;
+  height: 500px;
   border-radius: 30px;
   object-fit: cover;
 }
 .process-div {
   border-top: solid #f2c459;
   border-top-width: 2px;
-  width: 300px;
+  width: 500px;
   padding-top: 10px;
 }
 .process-div-img {
   width: 50px;
   height: 50px;
   border-radius: 10px;
+}
+
+.process-button-container {
+  display: flex;
+}
+.process-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  right: 22%;
+  top: 40%;
+}
+
+.process-button:hover {
+  cursor: pointer;
+}
+.process-button img {
+  width: 24px;
+  height: 24px;
 }
 .headshot {
   width: 150px;
@@ -121,7 +149,8 @@ h2 {
   flex-direction: row;
   gap: 50px;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+
   align-items: center;
 }
 
@@ -141,15 +170,16 @@ h2 {
 }
 
 .logos {
-  width: 18%;
+  width: 15%;
   object-fit: contain;
 }
 
 .arrows {
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  /* gap: 30px; */
   justify-content: flex-end;
+  align-items: center;
 }
 
 .arrows img {
@@ -187,6 +217,7 @@ h2 {
   width: 450px;
   object-fit: contain;
 }
+
 .footer {
   display: flex;
   justify-content: flex-start;
@@ -198,5 +229,22 @@ h2 {
   background-color: #fff7e5;
   transform: skewY(-3deg);
   transform-origin: top left;
-  height: 200px;
+  height: 70px;
+}
+
+.home-slide {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  text-align: left;
+  background-color: white;
+  padding: 80px;
+  border-radius: 20px;
+  /* height: 200px; */
+}
+
+.home-slide img {
+  /* height: 200px; */
+  min-width: 450px;
+  object-fit: contain;
 }

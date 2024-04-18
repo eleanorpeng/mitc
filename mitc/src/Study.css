@@ -1,0 +1,65 @@
+.container {
+  padding: 80px 20px;
+  background-color: #fff7e5;
+}
+
+.study-main {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 150px;
+  background-color: #fff7e5;
+}
+
+.background {
+  background-color: #fff7e5;
+  transform: skewY(-3deg);
+  transform-origin: top left;
+  height: 70px;
+}
+
+.study-content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.study-content img {
+  width: 600px;
+  /* height: 350px; */
+  object-fit: contain;
+  border-radius: 16px;
+}
+
+.study-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.finding-section {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  gap: 10px;
+}
+
+.finding-section h2 {
+  color: #f2c459;
+}
+
+button {
+  background-color: #f2c459;
+  width: 140px;
+  height: 50px;
+  justify-self: center;
+  align-self: center;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  font-family: "Inter";
+  font-size: 16px;
+}

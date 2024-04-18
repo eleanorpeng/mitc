@@ -7,7 +7,7 @@ export default function NavBar() {
       <div className="nav">
         <div className="title">
           <img className="logo" src="mitc.png"></img>
-          <h1 className="mitc-title">Museum In the Classroom</h1>
+          <h1 className="mitc-title">Museum in the Classroom</h1>
         </div>
         <div className="links">
           <Link to="/" className="link">

@@ -1,6 +1,7 @@
 .member {
   align-items: center;
   text-align: center;
+  width: 200px;
 }
 
 .headshot {
@@ -9,4 +10,13 @@
 
 .name {
   font-weight: bold;
+}
+
+a:visited {
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
